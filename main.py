@@ -12,7 +12,7 @@ def run_pipeline():
     print("   MOBILE RECOMMENDATION PIPELINE")
     print("=" * 50)
 
-    #load g
+    #load 
     df= pd.read_csv(raw_data_path)
     print(f"\n[1/4] Loaded {df.shape[0]} rows")
 
